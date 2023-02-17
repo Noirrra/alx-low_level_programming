@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
  * main - A C program that prints and that piece of art is useful"
  * Return:1
