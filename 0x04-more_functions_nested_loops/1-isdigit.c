@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * mul - Multiplies two integers
- * @x: The first number to multiply
- * @y:The second number to multiply with the first number
- * Return: The result of multiplication between x param and y param
+ * _isdigit (0 through 9) 
+ * c: int to be checked
+ * Return: 1 if c is a digit, 0 otherwise
  */
-int mul(int x, int y)
+int _isdigit(int c)
 {
-	Return(x * y);
+	return (c >= '0' && c <= '9');
 }
